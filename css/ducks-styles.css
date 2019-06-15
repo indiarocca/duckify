@@ -1,3 +1,142 @@
-body{
-  background-color: red;
+/*ALL PAGES--------------------------------------------------------------- */
+/*Header bar (beige)*/
+#bootstrap-override header {
+  width: 100%;
+  padding: 25px;
+  z-index: 10;
+  position: fixed;
+  text-align: center;
+  background: rgb(245, 245, 220);
+}
+
+/*Title (Duckify)*/
+#bootstrap-override h1 {
+  margin: 0;
+  font-family: 'Montserrat', monospace;
+  font-weight: 800;
+  font-size: 45px;
+  color: darkolivegreen;
+  padding: 0;
+}
+
+/*Navigation Bar (About, Ducks, Subscribe)*/
+#bootstrap-override nav.navbar {
+  text-transform: title;
+  font-family: 'Montserrat', monospace;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 20px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+#bootstrap-override nav i{
+  margin: 0 10px;
+}
+
+#bootstrap-override nav i a {
+  font-style: 'Monsterrat';
+  color: black;
+  text-decoration: none;
+}
+
+#bootstrap-override .current-link {
+  font-weight: 900;
+}
+
+#bootstrap-override a:hover {
+ font-weight: 900;
+}
+p {
+  font-size: 12px;
+  font-family: 'Montserrat', monospace;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
+#bootstrap-override .about-us {
+  position: absolute;
+  top: 15%;
+  padding: 10px;
+}
+
+#bootstrap-override footer {
+  margin:0;
+  width: 100%;
+  bottom: 0;
+  padding: 10px 0;
+  background: white;
+  text-align: right;
+  position: relative;
+}
+
+#bootstrap-override footer .inline {
+  /* putting social media icons in line with text */
+  display: inline;
+  padding: 0;
+}
+
+#bootstrap-override.fab {
+  /* social media icons */
+  font-size: 24px;
+  padding: 0;
+  display: inline;
+}
+
+
+/* ducks-page ----------------------------------------------------------------*/
+#bootstrap-override .ducks-container {
+  position: relative;
+  top: 100px;
+  size: 95%;
+  padding: 10px;
+}
+
+#bootstrap-override .ducks-container .row {
+  padding: 10px;
+}
+
+#bootstrap-override .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: rgba(255,255,255,255);
+}
+
+#bootstrap-override .col-sm-4:hover .overlay {
+  opacity: 1;
+}
+
+#bootstrap-override .col-sm-4 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#bootstrap-override .col-sm-4 .text {
+  /*text over images upon hover  */
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 200px;
+  padding: 40px;
+}
+
+#bootstrap-override .col-sm-4 a {
+  font-style: Montserrat;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
 }

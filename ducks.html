@@ -1,13 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Duckify</title>
-        <link rel="stylesheet" type="text/css" href="css/ducks-styles.css">
-    </head>
-    <body>
-      <h1>Duck Breeds</h1>
-      <a href="./index.html">About</a>
-      <a href="./ducks.html">Ducks</a>
-      <a href="./subscribe.html">Subsrcibe</a>
-    </body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--favicon-->
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="12x12">
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/ducks-styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Duckify</title>
+  </head>
+
+  <body id="bootstrap-override" class="ducks-page">
+    <!--HEADER-->
+    <div class="container-fluid">
+      <header class="row">
+        <div class="col-sm-6">
+          <h1 class="mainpageheader"> Duckify</h1>
+        </div>
+        <div class="col-sm-6">
+          <nav class="navbar">
+            <i> <a href="./index.html">About</a> </i>
+            <i class="current-link"> <a href="./ducks.html"> Ducks </a> </i>
+            <i> <a href="./subscribe.html"> Subscribe </a> </i>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <!--MAIN-->
+    <div class="container ducks-container">
+      <!--Row 1-->
+      <div class="row">
+        <!--Duck 1-->
+        <div class="col-sm-4">
+           <img src="images/gadwall.jpg" class="img img-responsive">
+           <div class="overlay">
+               <div class="text center-text"> Gadwall </div>
+           </div>
+        </div>
+        <!--Duck 2-->
+        <div class="col-sm-4">
+          <img src="images/mallard.jpg" alt="Image" class="img img-responsive">
+          <div class="overlay">
+              <div class="text center-text"> Mallard </div>
+          </div>
+        </div>
+        <!--Duck 3-->
+        <div class="col-sm-4">
+          <img src="images/mandarin-duck.jpg" alt="Image" class="img img-responsive">
+          <div class="overlay">
+              <div class="text center-text"> Mandarin Duck </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row 2-->
+      <div class="row">
+        <!--Flower 4-->
+        <div class="col-sm-4">
+          <img src="images/shelduck.jpg" alt="Image" class="img img-responsive">
+          <div class="overlay">
+              <div class="text center-text"> Shelduck </div>
+          </div>
+        </div>
+        <!--Duck 5-->
+        <div class="col-sm-4">
+          <img src="images/teal.jpg" alt="Image" class="img img-responsive">
+          <div class="overlay">
+              <div class="text center-text"> Teal </div>
+          </div>
+        </div>
+        <!--Duck 6-->
+        <div class="col-sm-4">
+          <img src="images/tufted-duck.jpg" alt="Image" class="img img-responsive">
+          <div class="overlay">
+              <div class="text center-text"> Tufted Duck </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--FOOTER-->
+    <div class="container">
+      <footer class="row">
+        <p class="inline"> Keep in touch </p>
+        <nav class="footer inline">
+          <a href="https://www.instagram.com/codefirstgirls/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/codefirstgirls" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          <p><small>Duckify by Collectify</small></p>
+        </nav>
+      </footer>
+    </div>
+
+    <!--SCRIPTS-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </body>
 </html>
