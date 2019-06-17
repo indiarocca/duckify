@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /*ALL PAGES--------------------------------------------------------------- */
 /*Header bar (beige)*/
 #bootstrap-override header {
@@ -69,7 +67,8 @@ p {
   padding: 10px 0;
   background: white;
   text-align: right;
-  position: relative;
+  position: fixed;
+  right: 40px;
 }
 
 #bootstrap-override footer .inline {
@@ -84,62 +83,3 @@ p {
   padding: 0;
   display: inline;
 }
-
-
-/* ducks-page ----------------------------------------------------------------*/
-#bootstrap-override .ducks-container {
-  position: relative;
-  top: 100px;
-  size: 95%;
-  padding: 10px;
-}
-
-#bootstrap-override .ducks-container .row {
-  padding: 10px;
-}
-
-#bootstrap-override .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .4s ease;
-  background-color: rgba(255,255,255,255);
-}
-
-#bootstrap-override .col-sm-4:hover .overlay {
-  opacity: 1;
-}
-
-#bootstrap-override .col-sm-4 img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#bootstrap-override .col-sm-4 .text {
-  /*text over images upon hover  */
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 200px;
-  padding: 40px;
-}
-
-#bootstrap-override .col-sm-4 a {
-  font-style: Montserrat;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-}
->>>>>>> master
